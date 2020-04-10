@@ -185,7 +185,7 @@ const transportation = data.reduce(function (obj, item) {
   if (!obj[item]) {
     obj[item] = 0; // Set the initial to ZERO
   }
-  obj[item]++;
+  obj[item]++; // Increment the initial
   return obj;
 }, {}); // {} = blank object is good because we don't know if the key exists
 console.log(transportation);
